@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "npx tsc src/index.ts && node  src/index.js"
+  },
+  "dependencies": {
+    "@types/better-sqlite3": "^7.6.9",
+    "better-sqlite3": "^9.4.3",
+    "fs": "^0.0.1-security",
+    "neboa": "^0.6.1",
+    "read-excel-file": "^5.7.1",
+    "sqlite3": "^5.1.7",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.26",
+    "typescript": "^5.4.2"
+  }
+}
