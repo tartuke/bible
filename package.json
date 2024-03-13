@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "npx tsc src/index.ts && node  src/index.js",
-    "dbInit": "npx tsc src/database/dbInit.ts && node  src/database/dbInit.js"
+    "dbInit": "npx tsc src/database/dbInit.ts && node  src/database/dbInit.js",
+    "mdInit": "npx tsc src/obsidian/index.ts && node src/obsidian/index.js "
   },
   "dependencies": {
     "@types/better-sqlite3": "^7.6.9",

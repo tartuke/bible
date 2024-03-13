@@ -40,3 +40,16 @@ export function insertWord(word: Word) {
     return _insertWord.run(word)
 }
 
+function dbGetRowsString(table: string, searchObj: object) {
+    return `
+    SELECT * FROM ${table}
+    WHERE ${Object.keys(searchObj).map(e => `${e} = '${searchObj[e]}'`).join(' AND ')};
+    `
+}
+
+export function getWords(search: object) {
+    const str = dbGetRowsString('words',search)
+    console.log(str)
+    const quary = db.prepare(str)
+    return quary.all() as unknown as [Word]
+}

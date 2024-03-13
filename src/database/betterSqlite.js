@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.insertWord = exports._insertWord = exports.db = void 0;
+exports.getWords = exports.insertWord = exports._insertWord = exports.db = void 0;
 var Database = require("better-sqlite3");
 var word_1 = require("../interfaces/word");
 exports.db = new Database('db.db');
@@ -14,3 +14,13 @@ function insertWord(word) {
     return exports._insertWord.run(word);
 }
 exports.insertWord = insertWord;
+function dbGetRowsString(table, searchObj) {
+    return "\n    SELECT * FROM ".concat(table, "\n    WHERE ").concat(Object.keys(searchObj).map(function (e) { return "".concat(e, " = '").concat(searchObj[e], "'"); }).join(' AND '), ";\n    ");
+}
+function getWords(search) {
+    var str = dbGetRowsString('words', search);
+    console.log(str);
+    var quary = exports.db.prepare(str);
+    return quary.all();
+}
+exports.getWords = getWords;

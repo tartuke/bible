@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "09267ad5cc1d8429",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd479eb9b246eb37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c47493fc5942abe",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a583ac1218addd44",
+    "type": "split",
+    "children": [
+      {
+        "id": "50705be84e54fc8c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b6467438ad110c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4f67334bcc424e87",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9d5a6fae9ef46380",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ff171a8fa60806ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0c15b79a4ff3c52",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7959854b75b2907c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c60bcba3122661fc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bf00af80f5ce28ee",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "440a418d47b60020",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "6b6467438ad110c7",
+  "lastOpenFiles": [
+    "markdown/words",
+    "markdown/words/H430.md",
+    "markdown/Genesis 1:1.md",
+    "markdown/words/H7225.md",
+    "markdown/words/H1254.md",
+    "markdown/words/H853.md",
+    "markdown/words/H776.md",
+    "markdown/words/H8064.md",
+    "markdown/words",
+    "markdown/H430.md",
+    "markdown/7225.md",
+    "markdown/H776.md",
+    "markdown/H7225.md",
+    "markdown/H8064.md",
+    "markdown/H1254.md",
+    "markdown/H853.md",
+    "Genesis 1:1.md",
+    "H430.md",
+    "markdown/test.md",
+    "H8064.md",
+    "H1254.md",
+    "H853.md",
+    "H7225.md",
+    "H776.md",
+    "src/obsidian/index.js",
+    "src/obsidian/index.ts",
+    "src/obsidian"
+  ]
+}
