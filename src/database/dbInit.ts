@@ -1,5 +1,5 @@
-import { insertWord } from "./database/betterSqlite";
-import { getWords } from "./excel";
+import { insertWord } from "../database/betterSqlite";
+import { getWords } from "../excel";
 
 
 
